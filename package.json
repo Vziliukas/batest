@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/nodemon/bin/nodemon.js server.js"
+    "start": "node_modules/nodemon/bin/nodemon.js server.js",
+    "watch-sass": "sass --watch src/sass/style.scss:src/css/output.css",
+    "watch": "npm run start & npm run watch-sass"
   },
   "author": "Vytautas Ziliukas",
   "license": "ISC",

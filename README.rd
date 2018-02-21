@@ -1,4 +1,11 @@
 Install packages
 1. npm Install
-//run server with static files
+
+Run server with static files
 npm start
+
+Run sass watcher 
+npm run watch-sass
+
+Run sass and server
+npm run watch
