@@ -305,6 +305,10 @@ body {
                 margin-top: 50px;
                 font-size: 2em;
                 color: $button-text;
+
+                &:disabled {
+                    background: white;
+                }
             }
         }
     }

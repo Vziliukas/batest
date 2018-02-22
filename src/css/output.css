@@ -216,6 +216,8 @@ body {
         margin-top: 50px;
         font-size: 2em;
         color: black; }
+        .contact-form .right-side form button:disabled {
+          background: white; }
 
 ::-webkit-input-placeholder {
   color: #d8d3d3; }
